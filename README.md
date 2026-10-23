@@ -1,4 +1,4 @@
-# AuraMix — Smart Office Mocktail Dispensing System
+# AuraMix — Automated-Mocktail-Despesing-Machine
 
 ![Board: ESP32-S3](https://img.shields.io/badge/Board-ESP32--S3-blue?style=flat-square)
 ![Framework: PlatformIO / Arduino](https://img.shields.io/badge/Framework-PlatformIO%20%7C%20Arduino-orange?style=flat-square)
