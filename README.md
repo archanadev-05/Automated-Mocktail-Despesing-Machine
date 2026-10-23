@@ -198,10 +198,6 @@ Responsible for coordinating pump operation, dispensing sequences, and mixing.
 
 Responsible for the cleaning cycle and waste-routing sequence.
 
-**LoadCellDriver**
-
-Responsible for acquiring and calibrating weight measurements.
-
 **WebServerManager**
 
 Responsible for the web interface and system telemetry.
