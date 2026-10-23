@@ -40,13 +40,8 @@ The system evaluates the validated signals from these pairs to help determine wh
 
 Because KY-022 modules are demodulating IR receivers, their behavior must be validated with modulated transmissions before the system is treated as a conventional beam-break detector.
 
-### 2.3 Weight Measurement
 
-A load cell connected through an HX711 interface measures the weight of the cup and its contents.
-
-Weight measurements can complement the IR ladder when determining whether a cup is present and whether dispensing should be permitted.
-
-### 2.4 Mixing System
+### 2.3 Mixing System
 
 A motor-driven mixing mechanism combines the selected ingredients before serving.
 
@@ -65,7 +60,6 @@ The intended hardware includes:
 - ESP32-S3 development board.
 - Three KY-005 infrared transmitter modules.
 - Three KY-022 infrared receiver modules.
-- Load cell and HX711 amplifier.
 - Peristaltic pumps and suitable driver circuits.
 - Mixing motor and driver.
 - Solenoid valves and suitable driver circuits.
@@ -300,7 +294,6 @@ Implementation status should be updated as hardware tests are completed.
 | KY-022 receiver test | To be verified |
 | Single IR pair | To be verified |
 | Three-pair IR ladder | To be verified |
-| Load cell integration | To be verified |
 | Pump control | To be verified |
 | Mixing system | To be verified |
 | Cleaning system | To be verified |
