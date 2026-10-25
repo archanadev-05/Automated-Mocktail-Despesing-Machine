@@ -1,10 +1,10 @@
 // Single KY-005 + KY-022 Pair Test
 
-
-#include <IRremote.hpp>
-
 #define IR_TX_PIN 17
 #define IR_RX_PIN 4
+#include <IRremote.hpp>
+
+
 
 unsigned long lastTransmission = 0;
 
