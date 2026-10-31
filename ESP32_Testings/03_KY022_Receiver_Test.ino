@@ -23,4 +23,9 @@ void loop() {
 
         IrReceiver.resume();
     }
+
+    else {
+    Serial.println("No IR signal detected...");
+    delay(500);
+  }
 }
